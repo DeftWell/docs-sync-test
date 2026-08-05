@@ -12,3 +12,5 @@ engine works end to end.
 - Front matter set the title, group, tags, and order
 - The folder name became the collection
 - Everything below tests block conversion
+
+This is a new item that was added.
