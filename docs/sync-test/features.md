@@ -21,3 +21,58 @@ function dw_hello() {
 | --- | --- |
 | One | Tables convert too |
 | Two | With a header row |
+
+## Component tags
+
+<Note>
+Callouts written as component tags carry full markdown, fences included.
+
+```bash
+wp plugin list
+```
+</Note>
+
+<CardGroup>
+<Card title="Quick start" icon="rocket" href="https://deftwell.com">
+Cards travel as component tags now.
+</Card>
+<Card title="Plain card">
+No icon, no link, just prose.
+</Card>
+</CardGroup>
+
+<Steps>
+<Step title="Install the plugin">
+Upload the zip and activate it.
+</Step>
+<Step title="Connect the repo">
+Paste the token, then press Test connection.
+</Step>
+</Steps>
+
+<Tabs>
+<Tab title="npm">
+Run the package manager you already use.
+</Tab>
+<Tab title="composer">
+Or install through Composer instead.
+</Tab>
+</Tabs>
+
+<CodeGroup>
+
+```js app.js
+console.log('hello');
+```
+
+```php title="functions.php"
+add_action( 'init', 'lemma_boot' );
+```
+
+</CodeGroup>
+
+```mermaid
+graph TD
+  A[Repo] --> B[Sync]
+  B --> C[Docs]
+```
