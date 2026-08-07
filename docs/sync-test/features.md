@@ -76,3 +76,9 @@ graph TD
   A[Repo] --> B[Sync]
   B --> C[Docs]
 ```
+
+## Passthrough
+
+Blocks with no markdown form travel verbatim, like this contact form:
+
+<!-- wp:fluentfom/guten-block {"formId":"6"} /-->
