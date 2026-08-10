@@ -82,3 +82,17 @@ graph TD
 Blocks with no markdown form travel verbatim, like this contact form:
 
 <!-- wp:fluentfom/guten-block {"formId":"6"} /-->
+
+## Accordions
+
+<Accordion title="How do refunds work?">
+Open the order in FluentCart, choose **Refund**, and the license deactivates on its own.
+
+<Note>
+Partial refunds keep the license active.
+</Note>
+</Accordion>
+
+<Accordion title="Can I move a license between sites?">
+Deactivate it on the old site first; activation slots free up immediately.
+</Accordion>
