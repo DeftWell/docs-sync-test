@@ -1,5 +1,6 @@
 ---
 title: Status Page
+slug: sync-status-page
 link: https://example.com/status
 icon: external-link
 badge: External
